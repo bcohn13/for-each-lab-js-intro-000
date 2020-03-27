@@ -6,6 +6,6 @@ function iterativeLog(array) {
 function iterate(callback) {
 
   var array=[]
-  array.forEach(callback => {array.append(callback)})
+  array.forEach(callback => {array.append()})
   return array
 }
